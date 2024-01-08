@@ -1,0 +1,61 @@
+body {
+  background-color: #282c34;
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+button {
+  margin-bottom: 100px;
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #176a53;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #597a9e;
+}
+
+.authors {
+  margin-bottom: 50px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+}
+
+.expanded {
+  max-height: 1250px;
+}
+
+#authors-list li {
+  list-style-type: none;
+  padding: 10px 20px; 
+  margin: 15px; 
+  margin-right: 57px;
+  background-color: #007bff; 
+  color: #fff; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  transition: background-color 0.3s;
+}
+
+#authors-list li:hover {
+  background-color: #0056b3;
+}
+
+#quotes{
+    padding: 15px;
+}
